@@ -1,0 +1,19 @@
+const express = require("express");
+const {
+  makeAnAppointment,
+  getmyappointments,
+  getallappointments,
+  deleteappointment,
+} = require("../controllers/Appointment");
+const jwtVerify = require("../Middlewares/jwtVerify");
+const appointmentRouter = express.Router();
+
+appointmentRouter.post("/makeanappointment", jwtVerify, makeAnAppointment);
+
+appointmentRouter.get("/getmyappointments", jwtVerify, getmyappointments);
+
+appointmentRouter.get("/getallappointments", getallappointments);
+
+appointmentRouter.delete("/delete",deleteappointment);
+
+module.exports = appointmentRouter;

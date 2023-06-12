@@ -1,0 +1,14 @@
+.sidebarContainer{
+    display:flex;
+    flex-direction: column;
+    padding-top: 100px;
+    gap:30px;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.sidebarItem>a{
+    font-size: 1.2rem;
+    color:white;
+    text-decoration: none;
+}

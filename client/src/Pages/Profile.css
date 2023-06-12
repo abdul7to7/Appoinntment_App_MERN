@@ -1,0 +1,29 @@
+.profileContainer{
+    margin-top: -8px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width:100%;
+    height:83vh;
+    border: 0.5px solid grey;
+    background-color: #003580;
+    color:white;
+    gap:30px;
+}
+.profileHeadingContainer{
+    text-align: center;
+}
+.profileHr{
+    margin-top: -5px;
+    width:100%;
+}
+.profileDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:50%;
+    gap:10px;
+    font-size: 24px;
+}

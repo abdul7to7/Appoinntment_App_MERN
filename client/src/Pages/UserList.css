@@ -1,0 +1,36 @@
+.userListContainer{
+    
+    margin-top: -8px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width:100%;
+    height:83vh;
+    border: 0.5px solid grey;
+    background-color: #003580;
+    color:white;
+    gap:10px;
+}
+.userListHeader{
+    text-align: center;
+}
+.userListHeadings{
+    display:flex;
+    padding-left:30px;
+    font-size: 20px;
+}
+.userListHr{
+    width:100%;
+}
+.userListItems{
+    display:flex;
+    padding-left:30px;
+    font-size: 20px;
+}
+.userSr{
+    flex:1
+}
+.userListHeading,.userListItem{
+    flex:2;
+}

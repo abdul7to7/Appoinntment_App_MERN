@@ -1,0 +1,46 @@
+.myAppoContainer{
+    margin-top: -8px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width:100%;
+    height:83vh;
+    border: 0.5px solid grey;
+    background-color: #003580;
+    color:white;
+    gap:30px;
+}
+.myAppoHeadingContainer{
+    text-align: center;
+}
+.myAppoList{
+    padding-left: 100px;
+}
+.myAppoListItems,.myAppoListHeader{
+    display:flex;
+    gap:20px;
+}
+.myAppoListItem,.myAppoListHeaderItem{
+    flex:2
+}
+.myAppoHr{
+    width:calc(100% + 100px);
+    margin-left: -100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.appoSr{
+    flex:1.5
+}
+.myAppoBtn{
+    background-color: lightgrey;
+    border-radius: 5px;
+    width:50px;
+    color:#003580;
+}
+
+.myAppoBtnList{
+    display: flex;
+    gap:2px;
+}
